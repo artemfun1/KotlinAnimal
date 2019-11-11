@@ -11,6 +11,7 @@ fun main() {
     vet.giveShot(wolf)
     vet.giveShot(hippo)
     }
+
 class Vet{
     fun giveShot(animal:Animal){
         animal.makeNoise()
