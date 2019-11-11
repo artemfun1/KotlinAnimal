@@ -18,7 +18,6 @@ fun main() {
         }
     }
     }
-
 class Vet{
     fun giveShot(animal:Animal){
         animal.makeNoise()
@@ -26,7 +25,7 @@ class Vet{
 }
 class Vehicle: Roamable{
     override fun roam(){
-        println("The Venicle is roamingjy6")
+        println("The Venicle is roaming")
     }
 }
 interface Roamable {
